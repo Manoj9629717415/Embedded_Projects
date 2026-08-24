@@ -1,5 +1,7 @@
 #include <iostream>
-#include <concept>
+#include <concepts>
+#include <future>
+#include <chrono>
 
 struct Car
 {
@@ -20,9 +22,16 @@ struct Engine
 };
 
 struct BadComponent{
-    int start()
+    std::future<bool> start()
     {
-        return 1;
+        std::promise<bool> p;
+        std::future<bool> f = p.get_future();
+        std::thread worker([](std::promise<bool> pr){
+            std::this_thread::sleep_for(std::chrono::seconds(2));
+            pr.set_value(true);
+        },std::move(p));
+        worker.detach();
+        return f;
     }
 };
 struct Wheel
@@ -39,25 +48,101 @@ concept Startable = requires(T obj)
     {obj.start()} -> std::same_as<bool>;
 };
 
-template<Startable T>
-void StartComponent(T& obj)
+template<typename T>
+concept Startable_Future = requires(T obj)
 {
-    obj.start();
+    {obj.start()} -> std::same_as<std::future<bool>>;
+};
+
+template<typename T>
+requires Startable <T> || Startable_Future<T>
+auto StartComponent(T& obj)
+{
+    return obj.start();
+}
+
+void printresult(auto result)
+{
+    if constexpr(std::same_as<decltype(result),bool>)
+    {
+        std::cout<< "result "<<result<<std::endl;
+    }
+    else if constexpr(std::same_as<decltype(result),std::future<bool>>)
+    {
+        auto re = result.get();
+         std::cout<< "result "<<re<<std::endl;
+    }
+
+}
+
+struct Sensor
+{
+    int read(){
+        return 10;
+    }
+};
+
+struct AsyncSensor
+{
+    std::future<int> read(){
+        std::promise<int> p;
+        std::future<int> f = p.get_future();
+        std::thread t([](std::promise<int> pr){
+            std::this_thread::sleep_for(std::chrono::seconds(2));
+            pr.set_value(100);
+        },std::move(p));
+        t.detach();
+        return std::move(f);
+    }
+};
+
+template<typename T>
+concept syncSensorReader = requires(T obj)
+{
+    {obj.read()}->std::same_as<int>;
+};
+
+template<typename T>
+concept asyncSensorReader = requires(T obj)
+{
+    {obj.read()}->std::same_as<std::future<int>>;
+};
+
+template<typename T>
+requires syncSensorReader<T> || asyncSensorReader<T>
+void readSensor(T& sensor)
+{
+    auto result = sensor.read();
+    if constexpr(syncSensorReader<T>)
+    {
+        std::cout<<" sensor value"<<result<<std::endl;
+    }
+    else if constexpr (asyncSensorReader<T>)
+    {
+        auto f = result.get();
+        std::cout<<" sensor value"<<f<<std::endl;
+    }
 }
 
 int main()
 {
     Car C;
-    StartComponent(C);
+    printresult(StartComponent(C));
 
     Engine E;
-    StartComponent(E);
+    printresult(StartComponent(E));
 
     // Wheel W;
     // StartComponent(W);
 
     BadComponent B;
-    StartComponent(B);
+    printresult(StartComponent(B));
+
+    Sensor S;
+    readSensor(S);
+
+    AsyncSensor AS;
+    readSensor(AS);
 
     return 0;
 }
