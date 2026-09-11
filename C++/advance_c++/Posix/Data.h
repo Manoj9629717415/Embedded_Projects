@@ -23,9 +23,18 @@ struct SharedBuffer{
 
 struct SharedMemory_mutex{
     pthread_mutex_t mutex;
+    pthread_cond_t not_empty;
+    pthread_cond_t not_full;
+
     VehicleData buffer[BUFFER_SIZE];
     int write_index;
     int read_index;
+    int count;
+    bool shutdown;
+
+    bool update_inprogress;
+    int prev_write_index;
+    int prev_count;
 };
 
 

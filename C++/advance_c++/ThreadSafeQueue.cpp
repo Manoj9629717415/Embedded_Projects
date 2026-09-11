@@ -38,8 +38,8 @@ public:
     void stop()
     {
         {
-        std::lock_guard<std::mutex> lock(data_mutext);
-        flag = true;
+            std::lock_guard<std::mutex> lock(data_mutext);
+            flag = true;
         }
         cv.notify_one();
     }
