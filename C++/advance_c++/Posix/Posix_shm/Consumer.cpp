@@ -50,12 +50,28 @@ int main()
     int count = 0;
     while(count <10)
     {
-        sem_wait(filled_slot);
-        std::cout<<" rpm "<<shared_buffer->buffer[shared_buffer->read_index].rpm<<" speed "<<shared_buffer->buffer[shared_buffer->read_index].speed<<"\n";
-        shared_buffer->read_index = (shared_buffer->read_index + 1) % BUFFER_SIZE;
-        sem_post(empty_slot);
+        timespec dealine;
+        clock_gettime(CLOCK_REALTIME,&dealine);
+        dealine.tv_sec += 3;
+
+        // sem_wait(filled_slot);
+        int ret = sem_timedwait(filled_slot,&dealine);
+        if(ret == 0)
+        {
+            std::cout<<" rpm "<<shared_buffer->buffer[shared_buffer->read_index].rpm<<" speed "<<shared_buffer->buffer[shared_buffer->read_index].speed<<"\n";
+            shared_buffer->read_index = (shared_buffer->read_index + 1) % BUFFER_SIZE;
+            sem_post(empty_slot);
+            count++;
+        }
+        else if(errno == ETIMEDOUT)
+        {
+             std::cout << "Semaphore timeout - no event received\n";
+        }
+        else{
+            std::cout<<" Semaphore timeout";
+        }
         sleep(5);
-        count++;
+        
     }
 
     sem_close(empty_slot);
