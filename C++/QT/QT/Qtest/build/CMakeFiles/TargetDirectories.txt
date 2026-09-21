@@ -1,0 +1,3 @@
+/home/apponnect/Programming/Study/Learning/C++/QT/QT/Qtest/build/CMakeFiles/QTtest.dir
+/home/apponnect/Programming/Study/Learning/C++/QT/QT/Qtest/build/CMakeFiles/edit_cache.dir
+/home/apponnect/Programming/Study/Learning/C++/QT/QT/Qtest/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/VehicleHMI">
+    <file alias="qmldir">/home/apponnect/Programming/Study/Learning/C++/QT/QT/build/VehicleHMI/qmldir</file>
+  </qresource>
+</RCC>
+

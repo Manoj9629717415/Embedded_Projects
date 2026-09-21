@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/apponnect/Programming/Study/Learning/C++/build",
+  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -g -std=gnu++17 -fPIC -o CMakeFiles/QTtest.dir/test.cpp.o -c /home/apponnect/Programming/Study/Learning/C++/QT/QT/Qtest/test.cpp",
+  "file": "/home/apponnect/Programming/Study/Learning/C++/QT/QT/Qtest/test.cpp",
+  "output": "CMakeFiles/QTtest.dir/test.cpp.o"
+}
+]

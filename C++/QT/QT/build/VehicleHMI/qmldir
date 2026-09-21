@@ -1,0 +1,6 @@
+module VehicleHMI
+typeinfo QTApp.qmltypes
+prefer :/VehicleHMI/
+Main 1.0 qml/Main.qml
+Settings 1.0 qml/Settings.qml
+

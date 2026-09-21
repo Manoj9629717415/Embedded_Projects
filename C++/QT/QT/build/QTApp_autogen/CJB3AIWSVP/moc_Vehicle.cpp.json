@@ -1,0 +1,98 @@
+{
+    "classes": [
+        {
+            "className": "Vehicle",
+            "methods": [
+                {
+                    "access": "public",
+                    "name": "increaseSpeed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "decreaseSpeed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "openSettings",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "speed",
+                    "notify": "speedChanged",
+                    "read": "speed",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setSpeed"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "batteryLevel",
+                    "notify": "batteryLevelChanged",
+                    "read": "batteryLevel",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setBatteryLevel"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "temperature",
+                    "notify": "temperatureChanged",
+                    "read": "temperature",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setTemperature"
+                }
+            ],
+            "qualifiedClassName": "Vehicle",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "speedChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "batteryLevelChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "temperatureChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "Vehicle.h",
+    "outputRevision": 68
+}

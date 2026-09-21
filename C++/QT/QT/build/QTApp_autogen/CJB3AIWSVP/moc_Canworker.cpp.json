@@ -1,0 +1,48 @@
+{
+    "classes": [
+        {
+            "className": "CanWorker",
+            "object": true,
+            "qualifiedClassName": "CanWorker",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "speed",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "speedReceived",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "batteryLevel",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "batteryLevelRecevied",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "name": "startSimulation",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "Canworker.h",
+    "outputRevision": 68
+}

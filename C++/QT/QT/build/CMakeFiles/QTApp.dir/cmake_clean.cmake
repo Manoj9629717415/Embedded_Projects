@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  ".rcc/qmlcache/QTApp_qml/Main_qml.cpp"
+  ".rcc/qmlcache/QTApp_qml/Settings_qml.cpp"
+  ".rcc/qmlcache/QTApp_qmlcache_loader.cpp"
+  ".rcc/qrc_QTApp_raw_qml_0.cpp"
+  ".rcc/qrc_qmake_VehicleHMI.cpp"
+  "CMakeFiles/QTApp_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/QTApp_autogen.dir/ParseCache.txt"
+  "QTApp_autogen"
+  "CMakeFiles/QTApp.dir/QTApp_autogen/mocs_compilation.cpp.o"
+  "CMakeFiles/QTApp.dir/QTApp_autogen/mocs_compilation.cpp.o.d"
+  "CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qml/Main_qml.cpp.o"
+  "CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qml/Main_qml.cpp.o.d"
+  "CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qml/Settings_qml.cpp.o"
+  "CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qml/Settings_qml.cpp.o.d"
+  "CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qmlcache_loader.cpp.o"
+  "CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qmlcache_loader.cpp.o.d"
+  "CMakeFiles/QTApp.dir/build/.rcc/qrc_QTApp_raw_qml_0.cpp.o"
+  "CMakeFiles/QTApp.dir/build/.rcc/qrc_QTApp_raw_qml_0.cpp.o.d"
+  "CMakeFiles/QTApp.dir/build/.rcc/qrc_qmake_VehicleHMI.cpp.o"
+  "CMakeFiles/QTApp.dir/build/.rcc/qrc_qmake_VehicleHMI.cpp.o.d"
+  "CMakeFiles/QTApp.dir/qtapp_qmltyperegistrations.cpp.o"
+  "CMakeFiles/QTApp.dir/qtapp_qmltyperegistrations.cpp.o.d"
+  "CMakeFiles/QTApp.dir/src/Main.cpp.o"
+  "CMakeFiles/QTApp.dir/src/Main.cpp.o.d"
+  "CMakeFiles/QTApp.dir/src/Vehicle/Canworker.cpp.o"
+  "CMakeFiles/QTApp.dir/src/Vehicle/Canworker.cpp.o.d"
+  "CMakeFiles/QTApp.dir/src/Vehicle/Vehicle.cpp.o"
+  "CMakeFiles/QTApp.dir/src/Vehicle/Vehicle.cpp.o.d"
+  "QTApp_autogen/mocs_compilation.cpp"
+  "QTApp_autogen/timestamp"
+  "VehicleHMI/QTApp.qmltypes"
+  "bin/QTApp"
+  "bin/QTApp.pdb"
+  "meta_types/qt6qtapp_metatypes.json"
+  "meta_types/qt6qtapp_metatypes.json.gen"
+  "qtapp_qmltyperegistrations.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/QTApp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
