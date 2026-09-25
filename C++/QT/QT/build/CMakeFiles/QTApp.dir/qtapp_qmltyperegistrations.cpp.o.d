@@ -1,5 +1,5 @@
 CMakeFiles/QTApp.dir/qtapp_qmltyperegistrations.cpp.o: \
- /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/qtapp_qmltyperegistrations.cpp \
+ /home/krian/Github/Learning/Learning/C++/QT/QT/build/qtapp_qmltyperegistrations.cpp \
  /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/qt6/QtQml/qqml.h \
  /usr/include/x86_64-linux-gnu/qt6/QtQml/qqmlprivate.h \

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/apponnect/Programming/Study/Learning/C++/QT/QT
+CMAKE_SOURCE_DIR = /home/krian/Github/Learning/Learning/C++/QT/QT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/apponnect/Programming/Study/Learning/C++/QT/QT/build
+CMAKE_BINARY_DIR = /home/krian/Github/Learning/Learning/C++/QT/QT/build
 
 # Utility rule file for QTApp_autogen.
 
@@ -70,9 +70,9 @@ CMakeFiles/QTApp_autogen: QTApp_autogen/timestamp
 
 QTApp_autogen/timestamp: /usr/lib/qt6/libexec/moc
 QTApp_autogen/timestamp: CMakeFiles/QTApp_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target QTApp"
-	/usr/bin/cmake -E cmake_autogen /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles/QTApp_autogen.dir/AutogenInfo.json ""
-	/usr/bin/cmake -E touch /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/QTApp_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target QTApp"
+	/usr/bin/cmake -E cmake_autogen /home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles/QTApp_autogen.dir/AutogenInfo.json Debug
+	/usr/bin/cmake -E touch /home/krian/Github/Learning/Learning/C++/QT/QT/build/QTApp_autogen/timestamp
 
 QTApp_autogen: CMakeFiles/QTApp_autogen
 QTApp_autogen: QTApp_autogen/timestamp
@@ -88,6 +88,6 @@ CMakeFiles/QTApp_autogen.dir/clean:
 .PHONY : CMakeFiles/QTApp_autogen.dir/clean
 
 CMakeFiles/QTApp_autogen.dir/depend:
-	cd /home/apponnect/Programming/Study/Learning/C++/QT/QT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/apponnect/Programming/Study/Learning/C++/QT/QT /home/apponnect/Programming/Study/Learning/C++/QT/QT /home/apponnect/Programming/Study/Learning/C++/QT/QT/build /home/apponnect/Programming/Study/Learning/C++/QT/QT/build /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles/QTApp_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/krian/Github/Learning/Learning/C++/QT/QT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krian/Github/Learning/Learning/C++/QT/QT /home/krian/Github/Learning/Learning/C++/QT/QT /home/krian/Github/Learning/Learning/C++/QT/QT/build /home/krian/Github/Learning/Learning/C++/QT/QT/build /home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles/QTApp_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/QTApp_autogen.dir/depend
 

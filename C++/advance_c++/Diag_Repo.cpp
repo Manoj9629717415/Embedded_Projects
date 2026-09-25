@@ -35,7 +35,7 @@ public:
     void updateseverity(const int diagId,const int severity)
     {
         // std::unique_lock<std::mutex> lock(m_mutex);
-        auto expectedsnapshot = m_snapshot.load();
+        auto expectedsnapshot = m_snapshot.load(std::memory_order_acquire);
         while(true)
         {
             auto newsnapshot = *expectedsnapshot;
@@ -46,7 +46,7 @@ public:
                 it->severity = severity;
             }
             std::shared_ptr<const std::vector<Diagnostic>> newsnapshot_p = std::make_shared<const std::vector<Diagnostic>>(newsnapshot);
-            if(m_snapshot.compare_exchange_weak(expectedsnapshot,newsnapshot_p))
+            if(m_snapshot.compare_exchange_weak(expectedsnapshot,newsnapshot_p,std::memory_order_release,std::memory_order_acquire))
             {
                 break;
             }
@@ -66,7 +66,7 @@ public:
     // }
 
     std::shared_ptr<const std::vector<Diagnostic>> getsnapShot() const{
-        return m_snapshot.load();
+        return m_snapshot.load(std::memory_order_acquire;
     }
 
 private:

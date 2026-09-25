@@ -2,16 +2,16 @@ import QtQuick
 import QtQuick.Controls
 
 Rectangle {
-    signal backrequested()
+    signal backRequested()
     width: 800
     height: 480
     color: "darkblue"
 
-
-
+    Column{
+        anchors.horizontalCenter : parent.horizontalCenter
+        anchors.verticalCenter : parent.verticalCenter
+        spacing : 50
         Text {
-            anchors.centerIn: parent
-
             text: "SETTINGS"
             color: "white"
             font.pixelSize: 40
@@ -20,11 +20,10 @@ Rectangle {
         Button {
             text: "Back"
 
-            anchors.centerIn: parent
-
             onClicked: {
                 backRequested()
             }
         }
+    }
 
 }

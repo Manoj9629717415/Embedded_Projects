@@ -1,5 +1,5 @@
 CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qml/Main_qml.cpp.o: \
- /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/.rcc/qmlcache/QTApp_qml/Main_qml.cpp \
+ /home/krian/Github/Learning/Learning/C++/QT/QT/build/.rcc/qmlcache/QTApp_qml/Main_qml.cpp \
  /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/qt6/QtQml/qqmlprivate.h \
  /usr/include/x86_64-linux-gnu/qt6/QtQml/qtqmlglobal.h \

@@ -2,6 +2,7 @@ import QtQuick
 import QtQuick.Controls
 
 ApplicationWindow {
+    id : dashboard
     visible: true
     width: 800
     height: 480
@@ -13,11 +14,11 @@ ApplicationWindow {
         id:settingsLoader
         anchors.fill:parent
         active:false
+        z : 100
 
         onLoaded:item.backRequested.connect(function(){
             settingsLoader.active = false
         })
-
     }
 
     Row{
@@ -89,6 +90,7 @@ ApplicationWindow {
 
 
         Column {
+            id : info
             spacing: 20
 
             Row {
@@ -122,6 +124,7 @@ ApplicationWindow {
                 }
 
                 Text {
+                    id: batterytext
                     text: vehicle.batteryLevel+"%"
                     font.pixelSize: 32
                     color: "white"
@@ -162,6 +165,69 @@ ApplicationWindow {
                     }
                 }
             }
+            Item{
+                id : warningArea
+                width:250
+                height:40
+
+                 Text {
+                    id: warningText
+                    anchors.fill: parent
+                    text: "LOW BATTERY"
+                    font.pixelSize: 30
+                    visible : true
+                    color : "red"
+                    opacity : 0
+                }
+
+                 StateGroup {
+                    id: warningStateGroup
+                    states : [
+                        State {
+                            name : "lowBattery"
+                            when : vehicle.batteryLevel < 30
+
+                            PropertyChanges {
+                                target : warningText
+                                opacity : 1.0
+                            }
+                             PropertyChanges {
+                                target : batteryFill
+                                color : "red"
+                            }
+                             PropertyChanges {
+                                target : batterytext
+                                color : "red"
+                            }
+                        }
+                    ]
+                transitions : [
+                    Transition {
+                        from : ""
+                        to : "lowBattery"
+
+                        NumberAnimation{
+                            target:warningText
+                            property : "opacity"
+                            duration : 3000
+                        }
+                    },
+                    Transition {
+                        from : "lowBattery"
+                        to : ""
+
+                        NumberAnimation{
+                            target : warningText
+                            property : "opacity"
+                            duration : 3000
+                        }
+                    }
+                ]
+                }
+            }
         }
+
+   
     }
+
 }

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/apponnect/Programming/Study/Learning/C++/QT/QT
+CMAKE_SOURCE_DIR = /home/krian/Github/Learning/Learning/C++/QT/QT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/apponnect/Programming/Study/Learning/C++/QT/QT/build
+CMAKE_BINARY_DIR = /home/krian/Github/Learning/Learning/C++/QT/QT/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/QTApp.dir/depend.make
@@ -69,17 +69,17 @@ include CMakeFiles/QTApp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/QTApp.dir/flags.make
 
-meta_types/qt6qtapp_metatypes.json.gen: /usr/lib/qt6/libexec/moc
-meta_types/qt6qtapp_metatypes.json.gen: meta_types/QTApp_json_file_list.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running moc --collect-json for target QTApp"
-	/usr/lib/qt6/libexec/moc -o /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/meta_types/qt6qtapp_metatypes.json.gen --collect-json @/home/apponnect/Programming/Study/Learning/C++/QT/QT/build/meta_types/QTApp_json_file_list.txt
-	/usr/bin/cmake -E copy_if_different /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/meta_types/qt6qtapp_metatypes.json.gen /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/meta_types/qt6qtapp_metatypes.json
+meta_types/qt6qtapp_debug_metatypes.json.gen: /usr/lib/qt6/libexec/moc
+meta_types/qt6qtapp_debug_metatypes.json.gen: meta_types/QTApp_json_file_list.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running moc --collect-json for target QTApp"
+	/usr/lib/qt6/libexec/moc -o /home/krian/Github/Learning/Learning/C++/QT/QT/build/meta_types/qt6qtapp_debug_metatypes.json.gen --collect-json @/home/krian/Github/Learning/Learning/C++/QT/QT/build/meta_types/QTApp_json_file_list.txt
+	/usr/bin/cmake -E copy_if_different /home/krian/Github/Learning/Learning/C++/QT/QT/build/meta_types/qt6qtapp_debug_metatypes.json.gen /home/krian/Github/Learning/Learning/C++/QT/QT/build/meta_types/qt6qtapp_debug_metatypes.json
 
-meta_types/qt6qtapp_metatypes.json: meta_types/qt6qtapp_metatypes.json.gen
-	@$(CMAKE_COMMAND) -E touch_nocreate meta_types/qt6qtapp_metatypes.json
+meta_types/qt6qtapp_debug_metatypes.json: meta_types/qt6qtapp_debug_metatypes.json.gen
+	@$(CMAKE_COMMAND) -E touch_nocreate meta_types/qt6qtapp_debug_metatypes.json
 
 qtapp_qmltyperegistrations.cpp: qmltypes/QTApp_foreign_types.txt
-qtapp_qmltyperegistrations.cpp: meta_types/qt6qtapp_metatypes.json
+qtapp_qmltyperegistrations.cpp: meta_types/qt6qtapp_debug_metatypes.json
 qtapp_qmltyperegistrations.cpp: /usr/lib/qt6/libexec/qmltyperegistrar
 qtapp_qmltyperegistrations.cpp: /usr/lib/x86_64-linux-gnu/metatypes/qt6core_none_metatypes.json
 qtapp_qmltyperegistrations.cpp: /usr/lib/x86_64-linux-gnu/metatypes/qt6qml_none_metatypes.json
@@ -88,10 +88,10 @@ qtapp_qmltyperegistrations.cpp: /usr/lib/x86_64-linux-gnu/metatypes/qt6gui_none_
 qtapp_qmltyperegistrations.cpp: /usr/lib/x86_64-linux-gnu/metatypes/qt6quick_none_metatypes.json
 qtapp_qmltyperegistrations.cpp: /usr/lib/x86_64-linux-gnu/metatypes/qt6qmlmodels_none_metatypes.json
 qtapp_qmltyperegistrations.cpp: /usr/lib/x86_64-linux-gnu/metatypes/qt6opengl_none_metatypes.json
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic QML type registration for target QTApp"
-	/usr/lib/qt6/libexec/qmltyperegistrar --generate-qmltypes=/home/apponnect/Programming/Study/Learning/C++/QT/QT/build/VehicleHMI/QTApp.qmltypes --import-name=VehicleHMI --major-version=1 --minor-version=0 @/home/apponnect/Programming/Study/Learning/C++/QT/QT/build/qmltypes/QTApp_foreign_types.txt -o /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/qtapp_qmltyperegistrations.cpp /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/meta_types/qt6qtapp_metatypes.json
-	/usr/bin/cmake -E make_directory /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/.generated
-	/usr/bin/cmake -E touch /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/.generated/QTApp.qmltypes
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic QML type registration for target QTApp"
+	/usr/lib/qt6/libexec/qmltyperegistrar --generate-qmltypes=/home/krian/Github/Learning/Learning/C++/QT/QT/build/VehicleHMI/QTApp.qmltypes --import-name=VehicleHMI --major-version=1 --minor-version=0 @/home/krian/Github/Learning/Learning/C++/QT/QT/build/qmltypes/QTApp_foreign_types.txt -o /home/krian/Github/Learning/Learning/C++/QT/QT/build/qtapp_qmltyperegistrations.cpp /home/krian/Github/Learning/Learning/C++/QT/QT/build/meta_types/qt6qtapp_debug_metatypes.json
+	/usr/bin/cmake -E make_directory /home/krian/Github/Learning/Learning/C++/QT/QT/build/.generated
+	/usr/bin/cmake -E touch /home/krian/Github/Learning/Learning/C++/QT/QT/build/.generated/QTApp.qmltypes
 
 VehicleHMI/QTApp.qmltypes: qtapp_qmltyperegistrations.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate VehicleHMI/QTApp.qmltypes
@@ -99,188 +99,188 @@ VehicleHMI/QTApp.qmltypes: qtapp_qmltyperegistrations.cpp
 .rcc/qrc_qmake_VehicleHMI.cpp: VehicleHMI/qmldir
 .rcc/qrc_qmake_VehicleHMI.cpp: .rcc/qmake_VehicleHMI.qrc
 .rcc/qrc_qmake_VehicleHMI.cpp: /usr/lib/qt6/libexec/rcc
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Running rcc for resource qmake_VehicleHMI"
-	/usr/lib/qt6/libexec/rcc --output /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/.rcc/qrc_qmake_VehicleHMI.cpp --name qmake_VehicleHMI /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/.rcc/qmake_VehicleHMI.qrc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Running rcc for resource qmake_VehicleHMI"
+	/usr/lib/qt6/libexec/rcc --output /home/krian/Github/Learning/Learning/C++/QT/QT/build/.rcc/qrc_qmake_VehicleHMI.cpp --name qmake_VehicleHMI /home/krian/Github/Learning/Learning/C++/QT/QT/build/.rcc/qmake_VehicleHMI.qrc
 
 .rcc/qmlcache/QTApp_qmlcache_loader.cpp: /usr/lib/qt6/libexec/qmlcachegen
 .rcc/qmlcache/QTApp_qmlcache_loader.cpp: .rcc/qmlcache/QTApp_qml_loader_file_list.rsp
 .rcc/qmlcache/QTApp_qmlcache_loader.cpp: .rcc/qmake_VehicleHMI.qrc
 .rcc/qmlcache/QTApp_qmlcache_loader.cpp: .rcc/QTApp_raw_qml_0.qrc
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating .rcc/qmlcache/QTApp_qmlcache_loader.cpp"
-	/usr/lib/qt6/libexec/qmlcachegen --resource-name qmlcache_QTApp --resource /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/.rcc/qmake_VehicleHMI.qrc --resource /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/.rcc/QTApp_raw_qml_0.qrc -o /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/.rcc/qmlcache/QTApp_qmlcache_loader.cpp @/home/apponnect/Programming/Study/Learning/C++/QT/QT/build/.rcc/qmlcache/QTApp_qml_loader_file_list.rsp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating .rcc/qmlcache/QTApp_qmlcache_loader.cpp"
+	/usr/lib/qt6/libexec/qmlcachegen --resource-name qmlcache_QTApp --resource /home/krian/Github/Learning/Learning/C++/QT/QT/build/.rcc/qmake_VehicleHMI.qrc --resource /home/krian/Github/Learning/Learning/C++/QT/QT/build/.rcc/QTApp_raw_qml_0.qrc -o /home/krian/Github/Learning/Learning/C++/QT/QT/build/.rcc/qmlcache/QTApp_qmlcache_loader.cpp @/home/krian/Github/Learning/Learning/C++/QT/QT/build/.rcc/qmlcache/QTApp_qml_loader_file_list.rsp
 
 .rcc/qmlcache/QTApp_qml/Main_qml.cpp: /usr/lib/qt6/libexec/qmlcachegen
-.rcc/qmlcache/QTApp_qml/Main_qml.cpp: /home/apponnect/Programming/Study/Learning/C++/QT/QT/qml/Main.qml
+.rcc/qmlcache/QTApp_qml/Main_qml.cpp: /home/krian/Github/Learning/Learning/C++/QT/QT/qml/Main.qml
 .rcc/qmlcache/QTApp_qml/Main_qml.cpp: .rcc/qmake_VehicleHMI.qrc
 .rcc/qmlcache/QTApp_qml/Main_qml.cpp: .rcc/QTApp_raw_qml_0.qrc
 .rcc/qmlcache/QTApp_qml/Main_qml.cpp: VehicleHMI/QTApp.qmltypes
 .rcc/qmlcache/QTApp_qml/Main_qml.cpp: VehicleHMI/qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating .rcc/qmlcache/QTApp_qml/Main_qml.cpp"
-	/usr/bin/cmake -E make_directory /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/.rcc/qmlcache/QTApp_qml
-	/usr/lib/qt6/libexec/qmlcachegen --bare --resource-path /VehicleHMI/qml/Main.qml -I /home/apponnect/Programming/Study/Learning/C++/QT/QT/build -I /usr/lib/x86_64-linux-gnu/qt6/qml -i /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/VehicleHMI/qmldir --resource /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/.rcc/qmake_VehicleHMI.qrc --resource /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/.rcc/QTApp_raw_qml_0.qrc -o /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/.rcc/qmlcache/QTApp_qml/Main_qml.cpp /home/apponnect/Programming/Study/Learning/C++/QT/QT/qml/Main.qml
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating .rcc/qmlcache/QTApp_qml/Main_qml.cpp"
+	/usr/bin/cmake -E make_directory /home/krian/Github/Learning/Learning/C++/QT/QT/build/.rcc/qmlcache/QTApp_qml
+	/usr/lib/qt6/libexec/qmlcachegen --bare --resource-path /VehicleHMI/qml/Main.qml -I /home/krian/Github/Learning/Learning/C++/QT/QT/build -I /usr/lib/x86_64-linux-gnu/qt6/qml -i /home/krian/Github/Learning/Learning/C++/QT/QT/build/VehicleHMI/qmldir --resource /home/krian/Github/Learning/Learning/C++/QT/QT/build/.rcc/qmake_VehicleHMI.qrc --resource /home/krian/Github/Learning/Learning/C++/QT/QT/build/.rcc/QTApp_raw_qml_0.qrc -o /home/krian/Github/Learning/Learning/C++/QT/QT/build/.rcc/qmlcache/QTApp_qml/Main_qml.cpp /home/krian/Github/Learning/Learning/C++/QT/QT/qml/Main.qml
 
 .rcc/qmlcache/QTApp_qml/Settings_qml.cpp: /usr/lib/qt6/libexec/qmlcachegen
-.rcc/qmlcache/QTApp_qml/Settings_qml.cpp: /home/apponnect/Programming/Study/Learning/C++/QT/QT/qml/Settings.qml
+.rcc/qmlcache/QTApp_qml/Settings_qml.cpp: /home/krian/Github/Learning/Learning/C++/QT/QT/qml/Settings.qml
 .rcc/qmlcache/QTApp_qml/Settings_qml.cpp: .rcc/qmake_VehicleHMI.qrc
 .rcc/qmlcache/QTApp_qml/Settings_qml.cpp: .rcc/QTApp_raw_qml_0.qrc
 .rcc/qmlcache/QTApp_qml/Settings_qml.cpp: VehicleHMI/QTApp.qmltypes
 .rcc/qmlcache/QTApp_qml/Settings_qml.cpp: VehicleHMI/qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating .rcc/qmlcache/QTApp_qml/Settings_qml.cpp"
-	/usr/bin/cmake -E make_directory /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/.rcc/qmlcache/QTApp_qml
-	/usr/lib/qt6/libexec/qmlcachegen --bare --resource-path /VehicleHMI/qml/Settings.qml -I /home/apponnect/Programming/Study/Learning/C++/QT/QT/build -I /usr/lib/x86_64-linux-gnu/qt6/qml -i /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/VehicleHMI/qmldir --resource /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/.rcc/qmake_VehicleHMI.qrc --resource /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/.rcc/QTApp_raw_qml_0.qrc -o /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/.rcc/qmlcache/QTApp_qml/Settings_qml.cpp /home/apponnect/Programming/Study/Learning/C++/QT/QT/qml/Settings.qml
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating .rcc/qmlcache/QTApp_qml/Settings_qml.cpp"
+	/usr/bin/cmake -E make_directory /home/krian/Github/Learning/Learning/C++/QT/QT/build/.rcc/qmlcache/QTApp_qml
+	/usr/lib/qt6/libexec/qmlcachegen --bare --resource-path /VehicleHMI/qml/Settings.qml -I /home/krian/Github/Learning/Learning/C++/QT/QT/build -I /usr/lib/x86_64-linux-gnu/qt6/qml -i /home/krian/Github/Learning/Learning/C++/QT/QT/build/VehicleHMI/qmldir --resource /home/krian/Github/Learning/Learning/C++/QT/QT/build/.rcc/qmake_VehicleHMI.qrc --resource /home/krian/Github/Learning/Learning/C++/QT/QT/build/.rcc/QTApp_raw_qml_0.qrc -o /home/krian/Github/Learning/Learning/C++/QT/QT/build/.rcc/qmlcache/QTApp_qml/Settings_qml.cpp /home/krian/Github/Learning/Learning/C++/QT/QT/qml/Settings.qml
 
-.rcc/qrc_QTApp_raw_qml_0.cpp: /home/apponnect/Programming/Study/Learning/C++/QT/QT/qml/Main.qml
-.rcc/qrc_QTApp_raw_qml_0.cpp: /home/apponnect/Programming/Study/Learning/C++/QT/QT/qml/Settings.qml
+.rcc/qrc_QTApp_raw_qml_0.cpp: /home/krian/Github/Learning/Learning/C++/QT/QT/qml/Main.qml
+.rcc/qrc_QTApp_raw_qml_0.cpp: /home/krian/Github/Learning/Learning/C++/QT/QT/qml/Settings.qml
 .rcc/qrc_QTApp_raw_qml_0.cpp: .rcc/QTApp_raw_qml_0.qrc
 .rcc/qrc_QTApp_raw_qml_0.cpp: /usr/lib/qt6/libexec/rcc
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Running rcc for resource QTApp_raw_qml_0"
-	/usr/lib/qt6/libexec/rcc --output /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/.rcc/qrc_QTApp_raw_qml_0.cpp --name QTApp_raw_qml_0 /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/.rcc/QTApp_raw_qml_0.qrc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Running rcc for resource QTApp_raw_qml_0"
+	/usr/lib/qt6/libexec/rcc --output /home/krian/Github/Learning/Learning/C++/QT/QT/build/.rcc/qrc_QTApp_raw_qml_0.cpp --name QTApp_raw_qml_0 /home/krian/Github/Learning/Learning/C++/QT/QT/build/.rcc/QTApp_raw_qml_0.qrc
 
 QTApp_autogen/timestamp: /usr/lib/qt6/libexec/moc
 QTApp_autogen/timestamp: CMakeFiles/QTApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Automatic MOC and UIC for target QTApp"
-	/usr/bin/cmake -E cmake_autogen /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles/QTApp_autogen.dir/AutogenInfo.json ""
-	/usr/bin/cmake -E touch /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/QTApp_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Automatic MOC and UIC for target QTApp"
+	/usr/bin/cmake -E cmake_autogen /home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles/QTApp_autogen.dir/AutogenInfo.json Debug
+	/usr/bin/cmake -E touch /home/krian/Github/Learning/Learning/C++/QT/QT/build/QTApp_autogen/timestamp
 
 CMakeFiles/QTApp.dir/QTApp_autogen/mocs_compilation.cpp.o: CMakeFiles/QTApp.dir/flags.make
 CMakeFiles/QTApp.dir/QTApp_autogen/mocs_compilation.cpp.o: QTApp_autogen/mocs_compilation.cpp
 CMakeFiles/QTApp.dir/QTApp_autogen/mocs_compilation.cpp.o: CMakeFiles/QTApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/QTApp.dir/QTApp_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QTApp.dir/QTApp_autogen/mocs_compilation.cpp.o -MF CMakeFiles/QTApp.dir/QTApp_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/QTApp.dir/QTApp_autogen/mocs_compilation.cpp.o -c /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/QTApp_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/QTApp.dir/QTApp_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QTApp.dir/QTApp_autogen/mocs_compilation.cpp.o -MF CMakeFiles/QTApp.dir/QTApp_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/QTApp.dir/QTApp_autogen/mocs_compilation.cpp.o -c /home/krian/Github/Learning/Learning/C++/QT/QT/build/QTApp_autogen/mocs_compilation.cpp
 
 CMakeFiles/QTApp.dir/QTApp_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/QTApp.dir/QTApp_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/QTApp_autogen/mocs_compilation.cpp > CMakeFiles/QTApp.dir/QTApp_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/krian/Github/Learning/Learning/C++/QT/QT/build/QTApp_autogen/mocs_compilation.cpp > CMakeFiles/QTApp.dir/QTApp_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/QTApp.dir/QTApp_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/QTApp.dir/QTApp_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/QTApp_autogen/mocs_compilation.cpp -o CMakeFiles/QTApp.dir/QTApp_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/krian/Github/Learning/Learning/C++/QT/QT/build/QTApp_autogen/mocs_compilation.cpp -o CMakeFiles/QTApp.dir/QTApp_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/QTApp.dir/src/Main.cpp.o: CMakeFiles/QTApp.dir/flags.make
-CMakeFiles/QTApp.dir/src/Main.cpp.o: /home/apponnect/Programming/Study/Learning/C++/QT/QT/src/Main.cpp
+CMakeFiles/QTApp.dir/src/Main.cpp.o: /home/krian/Github/Learning/Learning/C++/QT/QT/src/Main.cpp
 CMakeFiles/QTApp.dir/src/Main.cpp.o: CMakeFiles/QTApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/QTApp.dir/src/Main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QTApp.dir/src/Main.cpp.o -MF CMakeFiles/QTApp.dir/src/Main.cpp.o.d -o CMakeFiles/QTApp.dir/src/Main.cpp.o -c /home/apponnect/Programming/Study/Learning/C++/QT/QT/src/Main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/QTApp.dir/src/Main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QTApp.dir/src/Main.cpp.o -MF CMakeFiles/QTApp.dir/src/Main.cpp.o.d -o CMakeFiles/QTApp.dir/src/Main.cpp.o -c /home/krian/Github/Learning/Learning/C++/QT/QT/src/Main.cpp
 
 CMakeFiles/QTApp.dir/src/Main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/QTApp.dir/src/Main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/apponnect/Programming/Study/Learning/C++/QT/QT/src/Main.cpp > CMakeFiles/QTApp.dir/src/Main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/krian/Github/Learning/Learning/C++/QT/QT/src/Main.cpp > CMakeFiles/QTApp.dir/src/Main.cpp.i
 
 CMakeFiles/QTApp.dir/src/Main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/QTApp.dir/src/Main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/apponnect/Programming/Study/Learning/C++/QT/QT/src/Main.cpp -o CMakeFiles/QTApp.dir/src/Main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/krian/Github/Learning/Learning/C++/QT/QT/src/Main.cpp -o CMakeFiles/QTApp.dir/src/Main.cpp.s
 
 CMakeFiles/QTApp.dir/src/Vehicle/Vehicle.cpp.o: CMakeFiles/QTApp.dir/flags.make
-CMakeFiles/QTApp.dir/src/Vehicle/Vehicle.cpp.o: /home/apponnect/Programming/Study/Learning/C++/QT/QT/src/Vehicle/Vehicle.cpp
+CMakeFiles/QTApp.dir/src/Vehicle/Vehicle.cpp.o: /home/krian/Github/Learning/Learning/C++/QT/QT/src/Vehicle/Vehicle.cpp
 CMakeFiles/QTApp.dir/src/Vehicle/Vehicle.cpp.o: CMakeFiles/QTApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/QTApp.dir/src/Vehicle/Vehicle.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QTApp.dir/src/Vehicle/Vehicle.cpp.o -MF CMakeFiles/QTApp.dir/src/Vehicle/Vehicle.cpp.o.d -o CMakeFiles/QTApp.dir/src/Vehicle/Vehicle.cpp.o -c /home/apponnect/Programming/Study/Learning/C++/QT/QT/src/Vehicle/Vehicle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/QTApp.dir/src/Vehicle/Vehicle.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QTApp.dir/src/Vehicle/Vehicle.cpp.o -MF CMakeFiles/QTApp.dir/src/Vehicle/Vehicle.cpp.o.d -o CMakeFiles/QTApp.dir/src/Vehicle/Vehicle.cpp.o -c /home/krian/Github/Learning/Learning/C++/QT/QT/src/Vehicle/Vehicle.cpp
 
 CMakeFiles/QTApp.dir/src/Vehicle/Vehicle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/QTApp.dir/src/Vehicle/Vehicle.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/apponnect/Programming/Study/Learning/C++/QT/QT/src/Vehicle/Vehicle.cpp > CMakeFiles/QTApp.dir/src/Vehicle/Vehicle.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/krian/Github/Learning/Learning/C++/QT/QT/src/Vehicle/Vehicle.cpp > CMakeFiles/QTApp.dir/src/Vehicle/Vehicle.cpp.i
 
 CMakeFiles/QTApp.dir/src/Vehicle/Vehicle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/QTApp.dir/src/Vehicle/Vehicle.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/apponnect/Programming/Study/Learning/C++/QT/QT/src/Vehicle/Vehicle.cpp -o CMakeFiles/QTApp.dir/src/Vehicle/Vehicle.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/krian/Github/Learning/Learning/C++/QT/QT/src/Vehicle/Vehicle.cpp -o CMakeFiles/QTApp.dir/src/Vehicle/Vehicle.cpp.s
 
 CMakeFiles/QTApp.dir/src/Vehicle/Canworker.cpp.o: CMakeFiles/QTApp.dir/flags.make
-CMakeFiles/QTApp.dir/src/Vehicle/Canworker.cpp.o: /home/apponnect/Programming/Study/Learning/C++/QT/QT/src/Vehicle/Canworker.cpp
+CMakeFiles/QTApp.dir/src/Vehicle/Canworker.cpp.o: /home/krian/Github/Learning/Learning/C++/QT/QT/src/Vehicle/Canworker.cpp
 CMakeFiles/QTApp.dir/src/Vehicle/Canworker.cpp.o: CMakeFiles/QTApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/QTApp.dir/src/Vehicle/Canworker.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QTApp.dir/src/Vehicle/Canworker.cpp.o -MF CMakeFiles/QTApp.dir/src/Vehicle/Canworker.cpp.o.d -o CMakeFiles/QTApp.dir/src/Vehicle/Canworker.cpp.o -c /home/apponnect/Programming/Study/Learning/C++/QT/QT/src/Vehicle/Canworker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/QTApp.dir/src/Vehicle/Canworker.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QTApp.dir/src/Vehicle/Canworker.cpp.o -MF CMakeFiles/QTApp.dir/src/Vehicle/Canworker.cpp.o.d -o CMakeFiles/QTApp.dir/src/Vehicle/Canworker.cpp.o -c /home/krian/Github/Learning/Learning/C++/QT/QT/src/Vehicle/Canworker.cpp
 
 CMakeFiles/QTApp.dir/src/Vehicle/Canworker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/QTApp.dir/src/Vehicle/Canworker.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/apponnect/Programming/Study/Learning/C++/QT/QT/src/Vehicle/Canworker.cpp > CMakeFiles/QTApp.dir/src/Vehicle/Canworker.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/krian/Github/Learning/Learning/C++/QT/QT/src/Vehicle/Canworker.cpp > CMakeFiles/QTApp.dir/src/Vehicle/Canworker.cpp.i
 
 CMakeFiles/QTApp.dir/src/Vehicle/Canworker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/QTApp.dir/src/Vehicle/Canworker.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/apponnect/Programming/Study/Learning/C++/QT/QT/src/Vehicle/Canworker.cpp -o CMakeFiles/QTApp.dir/src/Vehicle/Canworker.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/krian/Github/Learning/Learning/C++/QT/QT/src/Vehicle/Canworker.cpp -o CMakeFiles/QTApp.dir/src/Vehicle/Canworker.cpp.s
 
 CMakeFiles/QTApp.dir/qtapp_qmltyperegistrations.cpp.o: CMakeFiles/QTApp.dir/flags.make
 CMakeFiles/QTApp.dir/qtapp_qmltyperegistrations.cpp.o: qtapp_qmltyperegistrations.cpp
 CMakeFiles/QTApp.dir/qtapp_qmltyperegistrations.cpp.o: CMakeFiles/QTApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/QTApp.dir/qtapp_qmltyperegistrations.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QTApp.dir/qtapp_qmltyperegistrations.cpp.o -MF CMakeFiles/QTApp.dir/qtapp_qmltyperegistrations.cpp.o.d -o CMakeFiles/QTApp.dir/qtapp_qmltyperegistrations.cpp.o -c /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/qtapp_qmltyperegistrations.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/QTApp.dir/qtapp_qmltyperegistrations.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QTApp.dir/qtapp_qmltyperegistrations.cpp.o -MF CMakeFiles/QTApp.dir/qtapp_qmltyperegistrations.cpp.o.d -o CMakeFiles/QTApp.dir/qtapp_qmltyperegistrations.cpp.o -c /home/krian/Github/Learning/Learning/C++/QT/QT/build/qtapp_qmltyperegistrations.cpp
 
 CMakeFiles/QTApp.dir/qtapp_qmltyperegistrations.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/QTApp.dir/qtapp_qmltyperegistrations.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/qtapp_qmltyperegistrations.cpp > CMakeFiles/QTApp.dir/qtapp_qmltyperegistrations.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/krian/Github/Learning/Learning/C++/QT/QT/build/qtapp_qmltyperegistrations.cpp > CMakeFiles/QTApp.dir/qtapp_qmltyperegistrations.cpp.i
 
 CMakeFiles/QTApp.dir/qtapp_qmltyperegistrations.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/QTApp.dir/qtapp_qmltyperegistrations.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/qtapp_qmltyperegistrations.cpp -o CMakeFiles/QTApp.dir/qtapp_qmltyperegistrations.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/krian/Github/Learning/Learning/C++/QT/QT/build/qtapp_qmltyperegistrations.cpp -o CMakeFiles/QTApp.dir/qtapp_qmltyperegistrations.cpp.s
 
 CMakeFiles/QTApp.dir/build/.rcc/qrc_qmake_VehicleHMI.cpp.o: CMakeFiles/QTApp.dir/flags.make
 CMakeFiles/QTApp.dir/build/.rcc/qrc_qmake_VehicleHMI.cpp.o: .rcc/qrc_qmake_VehicleHMI.cpp
 CMakeFiles/QTApp.dir/build/.rcc/qrc_qmake_VehicleHMI.cpp.o: CMakeFiles/QTApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/QTApp.dir/build/.rcc/qrc_qmake_VehicleHMI.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QTApp.dir/build/.rcc/qrc_qmake_VehicleHMI.cpp.o -MF CMakeFiles/QTApp.dir/build/.rcc/qrc_qmake_VehicleHMI.cpp.o.d -o CMakeFiles/QTApp.dir/build/.rcc/qrc_qmake_VehicleHMI.cpp.o -c /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/.rcc/qrc_qmake_VehicleHMI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/QTApp.dir/build/.rcc/qrc_qmake_VehicleHMI.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QTApp.dir/build/.rcc/qrc_qmake_VehicleHMI.cpp.o -MF CMakeFiles/QTApp.dir/build/.rcc/qrc_qmake_VehicleHMI.cpp.o.d -o CMakeFiles/QTApp.dir/build/.rcc/qrc_qmake_VehicleHMI.cpp.o -c /home/krian/Github/Learning/Learning/C++/QT/QT/build/.rcc/qrc_qmake_VehicleHMI.cpp
 
 CMakeFiles/QTApp.dir/build/.rcc/qrc_qmake_VehicleHMI.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/QTApp.dir/build/.rcc/qrc_qmake_VehicleHMI.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/.rcc/qrc_qmake_VehicleHMI.cpp > CMakeFiles/QTApp.dir/build/.rcc/qrc_qmake_VehicleHMI.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/krian/Github/Learning/Learning/C++/QT/QT/build/.rcc/qrc_qmake_VehicleHMI.cpp > CMakeFiles/QTApp.dir/build/.rcc/qrc_qmake_VehicleHMI.cpp.i
 
 CMakeFiles/QTApp.dir/build/.rcc/qrc_qmake_VehicleHMI.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/QTApp.dir/build/.rcc/qrc_qmake_VehicleHMI.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/.rcc/qrc_qmake_VehicleHMI.cpp -o CMakeFiles/QTApp.dir/build/.rcc/qrc_qmake_VehicleHMI.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/krian/Github/Learning/Learning/C++/QT/QT/build/.rcc/qrc_qmake_VehicleHMI.cpp -o CMakeFiles/QTApp.dir/build/.rcc/qrc_qmake_VehicleHMI.cpp.s
 
 CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qmlcache_loader.cpp.o: CMakeFiles/QTApp.dir/flags.make
 CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qmlcache_loader.cpp.o: .rcc/qmlcache/QTApp_qmlcache_loader.cpp
 CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qmlcache_loader.cpp.o: CMakeFiles/QTApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qmlcache_loader.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qmlcache_loader.cpp.o -MF CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qmlcache_loader.cpp.o.d -o CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qmlcache_loader.cpp.o -c /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/.rcc/qmlcache/QTApp_qmlcache_loader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qmlcache_loader.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qmlcache_loader.cpp.o -MF CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qmlcache_loader.cpp.o.d -o CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qmlcache_loader.cpp.o -c /home/krian/Github/Learning/Learning/C++/QT/QT/build/.rcc/qmlcache/QTApp_qmlcache_loader.cpp
 
 CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qmlcache_loader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qmlcache_loader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/.rcc/qmlcache/QTApp_qmlcache_loader.cpp > CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qmlcache_loader.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/krian/Github/Learning/Learning/C++/QT/QT/build/.rcc/qmlcache/QTApp_qmlcache_loader.cpp > CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qmlcache_loader.cpp.i
 
 CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qmlcache_loader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qmlcache_loader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/.rcc/qmlcache/QTApp_qmlcache_loader.cpp -o CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qmlcache_loader.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/krian/Github/Learning/Learning/C++/QT/QT/build/.rcc/qmlcache/QTApp_qmlcache_loader.cpp -o CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qmlcache_loader.cpp.s
 
 CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qml/Main_qml.cpp.o: CMakeFiles/QTApp.dir/flags.make
 CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qml/Main_qml.cpp.o: .rcc/qmlcache/QTApp_qml/Main_qml.cpp
 CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qml/Main_qml.cpp.o: CMakeFiles/QTApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qml/Main_qml.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qml/Main_qml.cpp.o -MF CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qml/Main_qml.cpp.o.d -o CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qml/Main_qml.cpp.o -c /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/.rcc/qmlcache/QTApp_qml/Main_qml.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qml/Main_qml.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qml/Main_qml.cpp.o -MF CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qml/Main_qml.cpp.o.d -o CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qml/Main_qml.cpp.o -c /home/krian/Github/Learning/Learning/C++/QT/QT/build/.rcc/qmlcache/QTApp_qml/Main_qml.cpp
 
 CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qml/Main_qml.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qml/Main_qml.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/.rcc/qmlcache/QTApp_qml/Main_qml.cpp > CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qml/Main_qml.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/krian/Github/Learning/Learning/C++/QT/QT/build/.rcc/qmlcache/QTApp_qml/Main_qml.cpp > CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qml/Main_qml.cpp.i
 
 CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qml/Main_qml.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qml/Main_qml.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/.rcc/qmlcache/QTApp_qml/Main_qml.cpp -o CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qml/Main_qml.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/krian/Github/Learning/Learning/C++/QT/QT/build/.rcc/qmlcache/QTApp_qml/Main_qml.cpp -o CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qml/Main_qml.cpp.s
 
 CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qml/Settings_qml.cpp.o: CMakeFiles/QTApp.dir/flags.make
 CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qml/Settings_qml.cpp.o: .rcc/qmlcache/QTApp_qml/Settings_qml.cpp
 CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qml/Settings_qml.cpp.o: CMakeFiles/QTApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qml/Settings_qml.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qml/Settings_qml.cpp.o -MF CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qml/Settings_qml.cpp.o.d -o CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qml/Settings_qml.cpp.o -c /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/.rcc/qmlcache/QTApp_qml/Settings_qml.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qml/Settings_qml.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qml/Settings_qml.cpp.o -MF CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qml/Settings_qml.cpp.o.d -o CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qml/Settings_qml.cpp.o -c /home/krian/Github/Learning/Learning/C++/QT/QT/build/.rcc/qmlcache/QTApp_qml/Settings_qml.cpp
 
 CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qml/Settings_qml.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qml/Settings_qml.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/.rcc/qmlcache/QTApp_qml/Settings_qml.cpp > CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qml/Settings_qml.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/krian/Github/Learning/Learning/C++/QT/QT/build/.rcc/qmlcache/QTApp_qml/Settings_qml.cpp > CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qml/Settings_qml.cpp.i
 
 CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qml/Settings_qml.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qml/Settings_qml.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/.rcc/qmlcache/QTApp_qml/Settings_qml.cpp -o CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qml/Settings_qml.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/krian/Github/Learning/Learning/C++/QT/QT/build/.rcc/qmlcache/QTApp_qml/Settings_qml.cpp -o CMakeFiles/QTApp.dir/build/.rcc/qmlcache/QTApp_qml/Settings_qml.cpp.s
 
 CMakeFiles/QTApp.dir/build/.rcc/qrc_QTApp_raw_qml_0.cpp.o: CMakeFiles/QTApp.dir/flags.make
 CMakeFiles/QTApp.dir/build/.rcc/qrc_QTApp_raw_qml_0.cpp.o: .rcc/qrc_QTApp_raw_qml_0.cpp
 CMakeFiles/QTApp.dir/build/.rcc/qrc_QTApp_raw_qml_0.cpp.o: CMakeFiles/QTApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/QTApp.dir/build/.rcc/qrc_QTApp_raw_qml_0.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QTApp.dir/build/.rcc/qrc_QTApp_raw_qml_0.cpp.o -MF CMakeFiles/QTApp.dir/build/.rcc/qrc_QTApp_raw_qml_0.cpp.o.d -o CMakeFiles/QTApp.dir/build/.rcc/qrc_QTApp_raw_qml_0.cpp.o -c /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/.rcc/qrc_QTApp_raw_qml_0.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/QTApp.dir/build/.rcc/qrc_QTApp_raw_qml_0.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QTApp.dir/build/.rcc/qrc_QTApp_raw_qml_0.cpp.o -MF CMakeFiles/QTApp.dir/build/.rcc/qrc_QTApp_raw_qml_0.cpp.o.d -o CMakeFiles/QTApp.dir/build/.rcc/qrc_QTApp_raw_qml_0.cpp.o -c /home/krian/Github/Learning/Learning/C++/QT/QT/build/.rcc/qrc_QTApp_raw_qml_0.cpp
 
 CMakeFiles/QTApp.dir/build/.rcc/qrc_QTApp_raw_qml_0.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/QTApp.dir/build/.rcc/qrc_QTApp_raw_qml_0.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/.rcc/qrc_QTApp_raw_qml_0.cpp > CMakeFiles/QTApp.dir/build/.rcc/qrc_QTApp_raw_qml_0.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/krian/Github/Learning/Learning/C++/QT/QT/build/.rcc/qrc_QTApp_raw_qml_0.cpp > CMakeFiles/QTApp.dir/build/.rcc/qrc_QTApp_raw_qml_0.cpp.i
 
 CMakeFiles/QTApp.dir/build/.rcc/qrc_QTApp_raw_qml_0.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/QTApp.dir/build/.rcc/qrc_QTApp_raw_qml_0.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/.rcc/qrc_QTApp_raw_qml_0.cpp -o CMakeFiles/QTApp.dir/build/.rcc/qrc_QTApp_raw_qml_0.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/krian/Github/Learning/Learning/C++/QT/QT/build/.rcc/qrc_QTApp_raw_qml_0.cpp -o CMakeFiles/QTApp.dir/build/.rcc/qrc_QTApp_raw_qml_0.cpp.s
 
 # Object files for target QTApp
 QTApp_OBJECTS = \
@@ -319,7 +319,7 @@ bin/QTApp: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
 bin/QTApp: /usr/lib/x86_64-linux-gnu/libGLX.so
 bin/QTApp: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 bin/QTApp: CMakeFiles/QTApp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable bin/QTApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable bin/QTApp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/QTApp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -337,9 +337,9 @@ CMakeFiles/QTApp.dir/depend: .rcc/qrc_QTApp_raw_qml_0.cpp
 CMakeFiles/QTApp.dir/depend: .rcc/qrc_qmake_VehicleHMI.cpp
 CMakeFiles/QTApp.dir/depend: QTApp_autogen/timestamp
 CMakeFiles/QTApp.dir/depend: VehicleHMI/QTApp.qmltypes
-CMakeFiles/QTApp.dir/depend: meta_types/qt6qtapp_metatypes.json
-CMakeFiles/QTApp.dir/depend: meta_types/qt6qtapp_metatypes.json.gen
+CMakeFiles/QTApp.dir/depend: meta_types/qt6qtapp_debug_metatypes.json
+CMakeFiles/QTApp.dir/depend: meta_types/qt6qtapp_debug_metatypes.json.gen
 CMakeFiles/QTApp.dir/depend: qtapp_qmltyperegistrations.cpp
-	cd /home/apponnect/Programming/Study/Learning/C++/QT/QT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/apponnect/Programming/Study/Learning/C++/QT/QT /home/apponnect/Programming/Study/Learning/C++/QT/QT /home/apponnect/Programming/Study/Learning/C++/QT/QT/build /home/apponnect/Programming/Study/Learning/C++/QT/QT/build /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles/QTApp.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/krian/Github/Learning/Learning/C++/QT/QT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krian/Github/Learning/Learning/C++/QT/QT /home/krian/Github/Learning/Learning/C++/QT/QT /home/krian/Github/Learning/Learning/C++/QT/QT/build /home/krian/Github/Learning/Learning/C++/QT/QT/build /home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles/QTApp.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/QTApp.dir/depend
 

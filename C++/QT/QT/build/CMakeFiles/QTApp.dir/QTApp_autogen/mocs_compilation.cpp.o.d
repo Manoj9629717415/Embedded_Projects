@@ -1,7 +1,7 @@
 CMakeFiles/QTApp.dir/QTApp_autogen/mocs_compilation.cpp.o: \
- /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/QTApp_autogen/mocs_compilation.cpp \
+ /home/krian/Github/Learning/Learning/C++/QT/QT/build/QTApp_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/QTApp_autogen/CJB3AIWSVP/moc_Canworker.cpp \
+ /home/krian/Github/Learning/Learning/C++/QT/QT/build/QTApp_autogen/CJB3AIWSVP/moc_Canworker.cpp \
  /usr/include/c++/13/memory /usr/include/c++/13/bits/memoryfwd.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -196,7 +196,7 @@ CMakeFiles/QTApp.dir/QTApp_autogen/mocs_compilation.cpp.o: \
  /usr/include/c++/13/bits/ranges_algobase.h \
  /usr/include/c++/13/pstl/glue_memory_defs.h \
  /usr/include/c++/13/pstl/execution_defs.h \
- /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/QTApp_autogen/CJB3AIWSVP/../../../includes/Canworker.h \
+ /home/krian/Github/Learning/Learning/C++/QT/QT/build/QTApp_autogen/CJB3AIWSVP/../../../includes/Canworker.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QTimer \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qtimer.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qglobal.h \
@@ -338,5 +338,5 @@ CMakeFiles/QTApp.dir/QTApp_autogen/mocs_compilation.cpp.o: \
  /usr/include/c++/13/charconv /usr/include/c++/13/span \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QObject \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qobject.h \
- /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/QTApp_autogen/CJB3AIWSVP/moc_Vehicle.cpp \
- /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/QTApp_autogen/CJB3AIWSVP/../../../includes/Vehicle.h
+ /home/krian/Github/Learning/Learning/C++/QT/QT/build/QTApp_autogen/CJB3AIWSVP/moc_Vehicle.cpp \
+ /home/krian/Github/Learning/Learning/C++/QT/QT/build/QTApp_autogen/CJB3AIWSVP/../../../includes/Vehicle.h

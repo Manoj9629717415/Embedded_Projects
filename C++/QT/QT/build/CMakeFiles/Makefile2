@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/apponnect/Programming/Study/Learning/C++/QT/QT
+CMAKE_SOURCE_DIR = /home/krian/Github/Learning/Learning/C++/QT/QT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/apponnect/Programming/Study/Learning/C++/QT/QT/build
+CMAKE_BINARY_DIR = /home/krian/Github/Learning/Learning/C++/QT/QT/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -98,14 +98,14 @@ CMakeFiles/QTApp.dir/all: CMakeFiles/QTApp_autogen_timestamp_deps.dir/all
 CMakeFiles/QTApp.dir/all: CMakeFiles/QTApp_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/QTApp.dir/build.make CMakeFiles/QTApp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/QTApp.dir/build.make CMakeFiles/QTApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19 "Built target QTApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19 "Built target QTApp"
 .PHONY : CMakeFiles/QTApp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/QTApp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles 25
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/QTApp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles 0
 .PHONY : CMakeFiles/QTApp.dir/rule
 
 # Convenience name for target.
@@ -124,14 +124,14 @@ CMakeFiles/QTApp.dir/clean:
 CMakeFiles/QTApp_automoc_json_extraction.dir/all: CMakeFiles/QTApp_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/QTApp_automoc_json_extraction.dir/build.make CMakeFiles/QTApp_automoc_json_extraction.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/QTApp_automoc_json_extraction.dir/build.make CMakeFiles/QTApp_automoc_json_extraction.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles --progress-num=22 "Built target QTApp_automoc_json_extraction"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles --progress-num=22 "Built target QTApp_automoc_json_extraction"
 .PHONY : CMakeFiles/QTApp_automoc_json_extraction.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/QTApp_automoc_json_extraction.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/QTApp_automoc_json_extraction.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles 0
 .PHONY : CMakeFiles/QTApp_automoc_json_extraction.dir/rule
 
 # Convenience name for target.
@@ -150,14 +150,14 @@ CMakeFiles/QTApp_automoc_json_extraction.dir/clean:
 CMakeFiles/QTApp_qmltyperegistration.dir/all: CMakeFiles/QTApp_automoc_json_extraction.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/QTApp_qmltyperegistration.dir/build.make CMakeFiles/QTApp_qmltyperegistration.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/QTApp_qmltyperegistration.dir/build.make CMakeFiles/QTApp_qmltyperegistration.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles --progress-num=24,25 "Built target QTApp_qmltyperegistration"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles --progress-num=24,25 "Built target QTApp_qmltyperegistration"
 .PHONY : CMakeFiles/QTApp_qmltyperegistration.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/QTApp_qmltyperegistration.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/QTApp_qmltyperegistration.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles 0
 .PHONY : CMakeFiles/QTApp_qmltyperegistration.dir/rule
 
 # Convenience name for target.
@@ -176,14 +176,14 @@ CMakeFiles/QTApp_qmltyperegistration.dir/clean:
 CMakeFiles/all_qmltyperegistrations.dir/all: CMakeFiles/QTApp_qmltyperegistration.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/all_qmltyperegistrations.dir/build.make CMakeFiles/all_qmltyperegistrations.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/all_qmltyperegistrations.dir/build.make CMakeFiles/all_qmltyperegistrations.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles --progress-num= "Built target all_qmltyperegistrations"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles --progress-num= "Built target all_qmltyperegistrations"
 .PHONY : CMakeFiles/all_qmltyperegistrations.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/all_qmltyperegistrations.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/all_qmltyperegistrations.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles 0
 .PHONY : CMakeFiles/all_qmltyperegistrations.dir/rule
 
 # Convenience name for target.
@@ -202,14 +202,14 @@ CMakeFiles/all_qmltyperegistrations.dir/clean:
 CMakeFiles/QTApp_other_files.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/QTApp_other_files.dir/build.make CMakeFiles/QTApp_other_files.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/QTApp_other_files.dir/build.make CMakeFiles/QTApp_other_files.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles --progress-num= "Built target QTApp_other_files"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles --progress-num= "Built target QTApp_other_files"
 .PHONY : CMakeFiles/QTApp_other_files.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/QTApp_other_files.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/QTApp_other_files.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles 0
 .PHONY : CMakeFiles/QTApp_other_files.dir/rule
 
 # Convenience name for target.
@@ -228,14 +228,14 @@ CMakeFiles/QTApp_other_files.dir/clean:
 CMakeFiles/QTApp_qmllint.dir/all: CMakeFiles/all_qmltyperegistrations.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/QTApp_qmllint.dir/build.make CMakeFiles/QTApp_qmllint.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/QTApp_qmllint.dir/build.make CMakeFiles/QTApp_qmllint.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles --progress-num= "Built target QTApp_qmllint"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles --progress-num= "Built target QTApp_qmllint"
 .PHONY : CMakeFiles/QTApp_qmllint.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/QTApp_qmllint.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/QTApp_qmllint.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles 0
 .PHONY : CMakeFiles/QTApp_qmllint.dir/rule
 
 # Convenience name for target.
@@ -254,14 +254,14 @@ CMakeFiles/QTApp_qmllint.dir/clean:
 CMakeFiles/QTApp_qmllint_json.dir/all: CMakeFiles/all_qmltyperegistrations.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/QTApp_qmllint_json.dir/build.make CMakeFiles/QTApp_qmllint_json.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/QTApp_qmllint_json.dir/build.make CMakeFiles/QTApp_qmllint_json.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles --progress-num= "Built target QTApp_qmllint_json"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles --progress-num= "Built target QTApp_qmllint_json"
 .PHONY : CMakeFiles/QTApp_qmllint_json.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/QTApp_qmllint_json.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/QTApp_qmllint_json.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles 0
 .PHONY : CMakeFiles/QTApp_qmllint_json.dir/rule
 
 # Convenience name for target.
@@ -280,14 +280,14 @@ CMakeFiles/QTApp_qmllint_json.dir/clean:
 CMakeFiles/all_qmllint.dir/all: CMakeFiles/QTApp_qmllint.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/all_qmllint.dir/build.make CMakeFiles/all_qmllint.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/all_qmllint.dir/build.make CMakeFiles/all_qmllint.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles --progress-num= "Built target all_qmllint"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles --progress-num= "Built target all_qmllint"
 .PHONY : CMakeFiles/all_qmllint.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/all_qmllint.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/all_qmllint.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles 0
 .PHONY : CMakeFiles/all_qmllint.dir/rule
 
 # Convenience name for target.
@@ -306,14 +306,14 @@ CMakeFiles/all_qmllint.dir/clean:
 CMakeFiles/all_qmllint_json.dir/all: CMakeFiles/QTApp_qmllint_json.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/all_qmllint_json.dir/build.make CMakeFiles/all_qmllint_json.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/all_qmllint_json.dir/build.make CMakeFiles/all_qmllint_json.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles --progress-num= "Built target all_qmllint_json"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles --progress-num= "Built target all_qmllint_json"
 .PHONY : CMakeFiles/all_qmllint_json.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/all_qmllint_json.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/all_qmllint_json.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles 0
 .PHONY : CMakeFiles/all_qmllint_json.dir/rule
 
 # Convenience name for target.
@@ -332,14 +332,14 @@ CMakeFiles/all_qmllint_json.dir/clean:
 CMakeFiles/QTApp_tooling.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/QTApp_tooling.dir/build.make CMakeFiles/QTApp_tooling.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/QTApp_tooling.dir/build.make CMakeFiles/QTApp_tooling.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles --progress-num=26,27 "Built target QTApp_tooling"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles --progress-num=26,27 "Built target QTApp_tooling"
 .PHONY : CMakeFiles/QTApp_tooling.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/QTApp_tooling.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/QTApp_tooling.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles 0
 .PHONY : CMakeFiles/QTApp_tooling.dir/rule
 
 # Convenience name for target.
@@ -358,14 +358,14 @@ CMakeFiles/QTApp_tooling.dir/clean:
 CMakeFiles/QTApp_qmlimportscan.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/QTApp_qmlimportscan.dir/build.make CMakeFiles/QTApp_qmlimportscan.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/QTApp_qmlimportscan.dir/build.make CMakeFiles/QTApp_qmlimportscan.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles --progress-num=23 "Built target QTApp_qmlimportscan"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles --progress-num=23 "Built target QTApp_qmlimportscan"
 .PHONY : CMakeFiles/QTApp_qmlimportscan.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/QTApp_qmlimportscan.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/QTApp_qmlimportscan.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles 0
 .PHONY : CMakeFiles/QTApp_qmlimportscan.dir/rule
 
 # Convenience name for target.
@@ -385,14 +385,14 @@ CMakeFiles/QTApp_autogen_timestamp_deps.dir/all: CMakeFiles/QTApp_tooling.dir/al
 CMakeFiles/QTApp_autogen_timestamp_deps.dir/all: CMakeFiles/QTApp_qmlimportscan.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/QTApp_autogen_timestamp_deps.dir/build.make CMakeFiles/QTApp_autogen_timestamp_deps.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/QTApp_autogen_timestamp_deps.dir/build.make CMakeFiles/QTApp_autogen_timestamp_deps.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles --progress-num=21 "Built target QTApp_autogen_timestamp_deps"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles --progress-num=21 "Built target QTApp_autogen_timestamp_deps"
 .PHONY : CMakeFiles/QTApp_autogen_timestamp_deps.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/QTApp_autogen_timestamp_deps.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/QTApp_autogen_timestamp_deps.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles 0
 .PHONY : CMakeFiles/QTApp_autogen_timestamp_deps.dir/rule
 
 # Convenience name for target.
@@ -413,14 +413,14 @@ CMakeFiles/QTApp_autogen.dir/all: CMakeFiles/QTApp_qmlimportscan.dir/all
 CMakeFiles/QTApp_autogen.dir/all: CMakeFiles/QTApp_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/QTApp_autogen.dir/build.make CMakeFiles/QTApp_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/QTApp_autogen.dir/build.make CMakeFiles/QTApp_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles --progress-num=20 "Built target QTApp_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles --progress-num=20 "Built target QTApp_autogen"
 .PHONY : CMakeFiles/QTApp_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/QTApp_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/QTApp_autogen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles 0
 .PHONY : CMakeFiles/QTApp_autogen.dir/rule
 
 # Convenience name for target.

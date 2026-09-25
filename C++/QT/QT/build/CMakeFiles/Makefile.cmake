@@ -7,9 +7,16 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/apponnect/Programming/Study/Learning/C++/QT/QT/CMakeLists.txt"
+  "/home/krian/Github/Learning/Learning/C++/QT/QT/CMakeLists.txt"
   "CMakeFiles/3.28.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeSystem.cmake"
+  "cmakedeps_macros.cmake"
+  "conan_toolchain.cmake"
+  "nlohmann_json-Target-debug.cmake"
+  "nlohmann_json-config-version.cmake"
+  "nlohmann_json-config.cmake"
+  "nlohmann_json-debug-x86_64-data.cmake"
+  "nlohmann_jsonTargets.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/Qt6/3rdparty/kwin/FindXKB.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/Qt6/FindWrapAtomic.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/Qt6/FindWrapOpenGL.cmake"

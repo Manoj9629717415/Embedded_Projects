@@ -1,0 +1,14 @@
+# Target labels
+ googletest-populate
+# Source files and their labels
+/home/krian/Github/Learning/Learning/C++/sampletest/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate
+/home/krian/Github/Learning/Learning/C++/sampletest/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.rule
+/home/krian/Github/Learning/Learning/C++/sampletest/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete.rule
+/home/krian/Github/Learning/Learning/C++/sampletest/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build.rule
+/home/krian/Github/Learning/Learning/C++/sampletest/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure.rule
+/home/krian/Github/Learning/Learning/C++/sampletest/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download.rule
+/home/krian/Github/Learning/Learning/C++/sampletest/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install.rule
+/home/krian/Github/Learning/Learning/C++/sampletest/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir.rule
+/home/krian/Github/Learning/Learning/C++/sampletest/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch.rule
+/home/krian/Github/Learning/Learning/C++/sampletest/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test.rule
+/home/krian/Github/Learning/Learning/C++/sampletest/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update.rule

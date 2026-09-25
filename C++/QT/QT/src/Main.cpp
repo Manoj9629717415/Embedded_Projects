@@ -20,9 +20,16 @@ int main(int argc, char *argv[])
     // engine.loadFromModule("VehicleHMI", "Main");
     engine.load(QUrl(QStringLiteral("qrc:/VehicleHMI/qml/Main.qml")));
 
+    if (engine.rootObjects().isEmpty())
+    {
+        return -1;
+    }
+
     CanWorker worker;
     QThread thread;
     worker.moveToThread(&thread);
+
+    
 
 
     QObject::connect(&worker,&CanWorker::speedReceived,&vehicle,&Vehicle::setSpeed);
@@ -30,8 +37,7 @@ int main(int argc, char *argv[])
     QObject::connect(&thread,&QThread::started,&worker,&CanWorker::startSimulation);
     thread.start();
 
-    if (engine.rootObjects().isEmpty())
-        return -1;
+
 
     int result = app.exec();
 

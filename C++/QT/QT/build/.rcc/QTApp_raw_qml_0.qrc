@@ -1,7 +1,7 @@
 <RCC>
   <qresource prefix="/VehicleHMI/">
-    <file alias="qml/Main.qml">/home/apponnect/Programming/Study/Learning/C++/QT/QT/qml/Main.qml</file>
-    <file alias="qml/Settings.qml">/home/apponnect/Programming/Study/Learning/C++/QT/QT/qml/Settings.qml</file>
+    <file alias="qml/Main.qml">/home/krian/Github/Learning/Learning/C++/QT/QT/qml/Main.qml</file>
+    <file alias="qml/Settings.qml">/home/krian/Github/Learning/Learning/C++/QT/QT/qml/Settings.qml</file>
   </qresource>
 </RCC>
 

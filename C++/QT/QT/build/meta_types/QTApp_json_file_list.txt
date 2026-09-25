@@ -1,2 +1,2 @@
-/home/apponnect/Programming/Study/Learning/C++/QT/QT/build/QTApp_autogen/include/../CJB3AIWSVP/moc_Canworker.cpp.json
-/home/apponnect/Programming/Study/Learning/C++/QT/QT/build/QTApp_autogen/include/../CJB3AIWSVP/moc_Vehicle.cpp.json
+/home/krian/Github/Learning/Learning/C++/QT/QT/build/QTApp_autogen/include/../CJB3AIWSVP/moc_Canworker.cpp.json
+/home/krian/Github/Learning/Learning/C++/QT/QT/build/QTApp_autogen/include/../CJB3AIWSVP/moc_Vehicle.cpp.json

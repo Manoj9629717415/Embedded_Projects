@@ -1,7 +1,7 @@
 CMakeFiles/QTApp.dir/src/Vehicle/Vehicle.cpp.o: \
- /home/apponnect/Programming/Study/Learning/C++/QT/QT/src/Vehicle/Vehicle.cpp \
+ /home/krian/Github/Learning/Learning/C++/QT/QT/src/Vehicle/Vehicle.cpp \
  /usr/include/stdc-predef.h \
- /home/apponnect/Programming/Study/Learning/C++/QT/QT/includes/Vehicle.h \
+ /home/krian/Github/Learning/Learning/C++/QT/QT/includes/Vehicle.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QObject \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qobject.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qobjectdefs.h \

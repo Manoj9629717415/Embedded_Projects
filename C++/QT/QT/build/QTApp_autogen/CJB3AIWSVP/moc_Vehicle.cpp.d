@@ -1,5 +1,5 @@
-/home/apponnect/Programming/Study/Learning/C++/QT/QT/build/QTApp_autogen/CJB3AIWSVP/moc_Vehicle.cpp: /home/apponnect/Programming/Study/Learning/C++/QT/QT/includes/Vehicle.h \
-  /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/QTApp_autogen/moc_predefs.h \
+/home/krian/Github/Learning/Learning/C++/QT/QT/build/QTApp_autogen/CJB3AIWSVP/moc_Vehicle.cpp: /home/krian/Github/Learning/Learning/C++/QT/QT/includes/Vehicle.h \
+  /home/krian/Github/Learning/Learning/C++/QT/QT/build/QTApp_autogen/moc_predefs.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \

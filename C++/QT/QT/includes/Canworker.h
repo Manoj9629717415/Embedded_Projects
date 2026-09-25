@@ -24,7 +24,7 @@ private:
     int m_batteryLevel{0};
     QTimer* m_timer;
     QTimer* m_batterytimer;
-
+    std::string m_jsonString =  R"({"speed": 0, "batteryLevel": 100})";
 };
 
 

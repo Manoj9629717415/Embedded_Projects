@@ -1,0 +1,1 @@
+. "/home/krian/Github/Learning/Learning/C++/QT/QT/build/conanrunenv-debug-x86_64.sh"

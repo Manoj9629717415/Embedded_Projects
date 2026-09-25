@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/apponnect/Programming/Study/Learning/C++/QT/QT
+CMAKE_SOURCE_DIR = /home/krian/Github/Learning/Learning/C++/QT/QT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/apponnect/Programming/Study/Learning/C++/QT/QT/build
+CMAKE_BINARY_DIR = /home/krian/Github/Learning/Learning/C++/QT/QT/build
 
 # Utility rule file for QTApp_qmltyperegistration.
 
@@ -70,7 +70,7 @@ CMakeFiles/QTApp_qmltyperegistration: qtapp_qmltyperegistrations.cpp
 CMakeFiles/QTApp_qmltyperegistration: VehicleHMI/QTApp.qmltypes
 
 qtapp_qmltyperegistrations.cpp: qmltypes/QTApp_foreign_types.txt
-qtapp_qmltyperegistrations.cpp: meta_types/qt6qtapp_metatypes.json
+qtapp_qmltyperegistrations.cpp: meta_types/qt6qtapp_debug_metatypes.json
 qtapp_qmltyperegistrations.cpp: /usr/lib/qt6/libexec/qmltyperegistrar
 qtapp_qmltyperegistrations.cpp: /usr/lib/x86_64-linux-gnu/metatypes/qt6core_none_metatypes.json
 qtapp_qmltyperegistrations.cpp: /usr/lib/x86_64-linux-gnu/metatypes/qt6qml_none_metatypes.json
@@ -79,27 +79,27 @@ qtapp_qmltyperegistrations.cpp: /usr/lib/x86_64-linux-gnu/metatypes/qt6gui_none_
 qtapp_qmltyperegistrations.cpp: /usr/lib/x86_64-linux-gnu/metatypes/qt6quick_none_metatypes.json
 qtapp_qmltyperegistrations.cpp: /usr/lib/x86_64-linux-gnu/metatypes/qt6qmlmodels_none_metatypes.json
 qtapp_qmltyperegistrations.cpp: /usr/lib/x86_64-linux-gnu/metatypes/qt6opengl_none_metatypes.json
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic QML type registration for target QTApp"
-	/usr/lib/qt6/libexec/qmltyperegistrar --generate-qmltypes=/home/apponnect/Programming/Study/Learning/C++/QT/QT/build/VehicleHMI/QTApp.qmltypes --import-name=VehicleHMI --major-version=1 --minor-version=0 @/home/apponnect/Programming/Study/Learning/C++/QT/QT/build/qmltypes/QTApp_foreign_types.txt -o /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/qtapp_qmltyperegistrations.cpp /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/meta_types/qt6qtapp_metatypes.json
-	/usr/bin/cmake -E make_directory /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/.generated
-	/usr/bin/cmake -E touch /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/.generated/QTApp.qmltypes
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic QML type registration for target QTApp"
+	/usr/lib/qt6/libexec/qmltyperegistrar --generate-qmltypes=/home/krian/Github/Learning/Learning/C++/QT/QT/build/VehicleHMI/QTApp.qmltypes --import-name=VehicleHMI --major-version=1 --minor-version=0 @/home/krian/Github/Learning/Learning/C++/QT/QT/build/qmltypes/QTApp_foreign_types.txt -o /home/krian/Github/Learning/Learning/C++/QT/QT/build/qtapp_qmltyperegistrations.cpp /home/krian/Github/Learning/Learning/C++/QT/QT/build/meta_types/qt6qtapp_debug_metatypes.json
+	/usr/bin/cmake -E make_directory /home/krian/Github/Learning/Learning/C++/QT/QT/build/.generated
+	/usr/bin/cmake -E touch /home/krian/Github/Learning/Learning/C++/QT/QT/build/.generated/QTApp.qmltypes
 
 VehicleHMI/QTApp.qmltypes: qtapp_qmltyperegistrations.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate VehicleHMI/QTApp.qmltypes
 
-meta_types/qt6qtapp_metatypes.json.gen: /usr/lib/qt6/libexec/moc
-meta_types/qt6qtapp_metatypes.json.gen: meta_types/QTApp_json_file_list.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Running moc --collect-json for target QTApp"
-	/usr/lib/qt6/libexec/moc -o /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/meta_types/qt6qtapp_metatypes.json.gen --collect-json @/home/apponnect/Programming/Study/Learning/C++/QT/QT/build/meta_types/QTApp_json_file_list.txt
-	/usr/bin/cmake -E copy_if_different /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/meta_types/qt6qtapp_metatypes.json.gen /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/meta_types/qt6qtapp_metatypes.json
+meta_types/qt6qtapp_debug_metatypes.json.gen: /usr/lib/qt6/libexec/moc
+meta_types/qt6qtapp_debug_metatypes.json.gen: meta_types/QTApp_json_file_list.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Running moc --collect-json for target QTApp"
+	/usr/lib/qt6/libexec/moc -o /home/krian/Github/Learning/Learning/C++/QT/QT/build/meta_types/qt6qtapp_debug_metatypes.json.gen --collect-json @/home/krian/Github/Learning/Learning/C++/QT/QT/build/meta_types/QTApp_json_file_list.txt
+	/usr/bin/cmake -E copy_if_different /home/krian/Github/Learning/Learning/C++/QT/QT/build/meta_types/qt6qtapp_debug_metatypes.json.gen /home/krian/Github/Learning/Learning/C++/QT/QT/build/meta_types/qt6qtapp_debug_metatypes.json
 
-meta_types/qt6qtapp_metatypes.json: meta_types/qt6qtapp_metatypes.json.gen
-	@$(CMAKE_COMMAND) -E touch_nocreate meta_types/qt6qtapp_metatypes.json
+meta_types/qt6qtapp_debug_metatypes.json: meta_types/qt6qtapp_debug_metatypes.json.gen
+	@$(CMAKE_COMMAND) -E touch_nocreate meta_types/qt6qtapp_debug_metatypes.json
 
 QTApp_qmltyperegistration: CMakeFiles/QTApp_qmltyperegistration
 QTApp_qmltyperegistration: VehicleHMI/QTApp.qmltypes
-QTApp_qmltyperegistration: meta_types/qt6qtapp_metatypes.json
-QTApp_qmltyperegistration: meta_types/qt6qtapp_metatypes.json.gen
+QTApp_qmltyperegistration: meta_types/qt6qtapp_debug_metatypes.json
+QTApp_qmltyperegistration: meta_types/qt6qtapp_debug_metatypes.json.gen
 QTApp_qmltyperegistration: qtapp_qmltyperegistrations.cpp
 QTApp_qmltyperegistration: CMakeFiles/QTApp_qmltyperegistration.dir/build.make
 .PHONY : QTApp_qmltyperegistration
@@ -113,6 +113,6 @@ CMakeFiles/QTApp_qmltyperegistration.dir/clean:
 .PHONY : CMakeFiles/QTApp_qmltyperegistration.dir/clean
 
 CMakeFiles/QTApp_qmltyperegistration.dir/depend:
-	cd /home/apponnect/Programming/Study/Learning/C++/QT/QT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/apponnect/Programming/Study/Learning/C++/QT/QT /home/apponnect/Programming/Study/Learning/C++/QT/QT /home/apponnect/Programming/Study/Learning/C++/QT/QT/build /home/apponnect/Programming/Study/Learning/C++/QT/QT/build /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles/QTApp_qmltyperegistration.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/krian/Github/Learning/Learning/C++/QT/QT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krian/Github/Learning/Learning/C++/QT/QT /home/krian/Github/Learning/Learning/C++/QT/QT /home/krian/Github/Learning/Learning/C++/QT/QT/build /home/krian/Github/Learning/Learning/C++/QT/QT/build /home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles/QTApp_qmltyperegistration.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/QTApp_qmltyperegistration.dir/depend
 

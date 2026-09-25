@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/apponnect/Programming/Study/Learning/C++/QT/QT
+CMAKE_SOURCE_DIR = /home/krian/Github/Learning/Learning/C++/QT/QT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/apponnect/Programming/Study/Learning/C++/QT/QT/build
+CMAKE_BINARY_DIR = /home/krian/Github/Learning/Learning/C++/QT/QT/build
 
 # Utility rule file for QTApp_tooling.
 
@@ -66,13 +66,13 @@ include CMakeFiles/QTApp_tooling.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/QTApp_tooling.dir/progress.make
 
-VehicleHMI/qml/Main.qml: /home/apponnect/Programming/Study/Learning/C++/QT/QT/qml/Main.qml
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating VehicleHMI/qml/Main.qml"
-	cd /home/apponnect/Programming/Study/Learning/C++/QT/QT && /usr/bin/cmake -E copy /home/apponnect/Programming/Study/Learning/C++/QT/QT/qml/Main.qml /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/VehicleHMI/qml/Main.qml
+VehicleHMI/qml/Main.qml: /home/krian/Github/Learning/Learning/C++/QT/QT/qml/Main.qml
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating VehicleHMI/qml/Main.qml"
+	cd /home/krian/Github/Learning/Learning/C++/QT/QT && /usr/bin/cmake -E copy /home/krian/Github/Learning/Learning/C++/QT/QT/qml/Main.qml /home/krian/Github/Learning/Learning/C++/QT/QT/build/VehicleHMI/qml/Main.qml
 
-VehicleHMI/qml/Settings.qml: /home/apponnect/Programming/Study/Learning/C++/QT/QT/qml/Settings.qml
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating VehicleHMI/qml/Settings.qml"
-	cd /home/apponnect/Programming/Study/Learning/C++/QT/QT && /usr/bin/cmake -E copy /home/apponnect/Programming/Study/Learning/C++/QT/QT/qml/Settings.qml /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/VehicleHMI/qml/Settings.qml
+VehicleHMI/qml/Settings.qml: /home/krian/Github/Learning/Learning/C++/QT/QT/qml/Settings.qml
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating VehicleHMI/qml/Settings.qml"
+	cd /home/krian/Github/Learning/Learning/C++/QT/QT && /usr/bin/cmake -E copy /home/krian/Github/Learning/Learning/C++/QT/QT/qml/Settings.qml /home/krian/Github/Learning/Learning/C++/QT/QT/build/VehicleHMI/qml/Settings.qml
 
 QTApp_tooling: VehicleHMI/qml/Main.qml
 QTApp_tooling: VehicleHMI/qml/Settings.qml
@@ -88,6 +88,6 @@ CMakeFiles/QTApp_tooling.dir/clean:
 .PHONY : CMakeFiles/QTApp_tooling.dir/clean
 
 CMakeFiles/QTApp_tooling.dir/depend:
-	cd /home/apponnect/Programming/Study/Learning/C++/QT/QT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/apponnect/Programming/Study/Learning/C++/QT/QT /home/apponnect/Programming/Study/Learning/C++/QT/QT /home/apponnect/Programming/Study/Learning/C++/QT/QT/build /home/apponnect/Programming/Study/Learning/C++/QT/QT/build /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles/QTApp_tooling.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/krian/Github/Learning/Learning/C++/QT/QT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krian/Github/Learning/Learning/C++/QT/QT /home/krian/Github/Learning/Learning/C++/QT/QT /home/krian/Github/Learning/Learning/C++/QT/QT/build /home/krian/Github/Learning/Learning/C++/QT/QT/build /home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles/QTApp_tooling.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/QTApp_tooling.dir/depend
 

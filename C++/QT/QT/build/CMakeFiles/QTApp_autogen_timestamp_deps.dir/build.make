@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/apponnect/Programming/Study/Learning/C++/QT/QT
+CMAKE_SOURCE_DIR = /home/krian/Github/Learning/Learning/C++/QT/QT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/apponnect/Programming/Study/Learning/C++/QT/QT/build
+CMAKE_BINARY_DIR = /home/krian/Github/Learning/Learning/C++/QT/QT/build
 
 # Utility rule file for QTApp_autogen_timestamp_deps.
 
@@ -75,8 +75,8 @@ CMakeFiles/QTApp_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Gui.so.
 .rcc/qmlcache/QTApp_qmlcache_loader.cpp: .rcc/qmlcache/QTApp_qml_loader_file_list.rsp
 .rcc/qmlcache/QTApp_qmlcache_loader.cpp: .rcc/qmake_VehicleHMI.qrc
 .rcc/qmlcache/QTApp_qmlcache_loader.cpp: .rcc/QTApp_raw_qml_0.qrc
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating .rcc/qmlcache/QTApp_qmlcache_loader.cpp"
-	/usr/lib/qt6/libexec/qmlcachegen --resource-name qmlcache_QTApp --resource /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/.rcc/qmake_VehicleHMI.qrc --resource /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/.rcc/QTApp_raw_qml_0.qrc -o /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/.rcc/qmlcache/QTApp_qmlcache_loader.cpp @/home/apponnect/Programming/Study/Learning/C++/QT/QT/build/.rcc/qmlcache/QTApp_qml_loader_file_list.rsp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating .rcc/qmlcache/QTApp_qmlcache_loader.cpp"
+	/usr/lib/qt6/libexec/qmlcachegen --resource-name qmlcache_QTApp --resource /home/krian/Github/Learning/Learning/C++/QT/QT/build/.rcc/qmake_VehicleHMI.qrc --resource /home/krian/Github/Learning/Learning/C++/QT/QT/build/.rcc/QTApp_raw_qml_0.qrc -o /home/krian/Github/Learning/Learning/C++/QT/QT/build/.rcc/qmlcache/QTApp_qmlcache_loader.cpp @/home/krian/Github/Learning/Learning/C++/QT/QT/build/.rcc/qmlcache/QTApp_qml_loader_file_list.rsp
 
 QTApp_autogen_timestamp_deps: .rcc/qmlcache/QTApp_qmlcache_loader.cpp
 QTApp_autogen_timestamp_deps: CMakeFiles/QTApp_autogen_timestamp_deps
@@ -92,6 +92,6 @@ CMakeFiles/QTApp_autogen_timestamp_deps.dir/clean:
 .PHONY : CMakeFiles/QTApp_autogen_timestamp_deps.dir/clean
 
 CMakeFiles/QTApp_autogen_timestamp_deps.dir/depend:
-	cd /home/apponnect/Programming/Study/Learning/C++/QT/QT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/apponnect/Programming/Study/Learning/C++/QT/QT /home/apponnect/Programming/Study/Learning/C++/QT/QT /home/apponnect/Programming/Study/Learning/C++/QT/QT/build /home/apponnect/Programming/Study/Learning/C++/QT/QT/build /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles/QTApp_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/krian/Github/Learning/Learning/C++/QT/QT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krian/Github/Learning/Learning/C++/QT/QT /home/krian/Github/Learning/Learning/C++/QT/QT /home/krian/Github/Learning/Learning/C++/QT/QT/build /home/krian/Github/Learning/Learning/C++/QT/QT/build /home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles/QTApp_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/QTApp_autogen_timestamp_deps.dir/depend
 

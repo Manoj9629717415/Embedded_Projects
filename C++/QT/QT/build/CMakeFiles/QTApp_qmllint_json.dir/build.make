@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/apponnect/Programming/Study/Learning/C++/QT/QT
+CMAKE_SOURCE_DIR = /home/krian/Github/Learning/Learning/C++/QT/QT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/apponnect/Programming/Study/Learning/C++/QT/QT/build
+CMAKE_BINARY_DIR = /home/krian/Github/Learning/Learning/C++/QT/QT/build
 
 # Utility rule file for QTApp_qmllint_json.
 
@@ -67,9 +67,9 @@ include CMakeFiles/QTApp_qmllint_json.dir/compiler_depend.make
 include CMakeFiles/QTApp_qmllint_json.dir/progress.make
 
 CMakeFiles/QTApp_qmllint_json: /usr/lib/qt6/bin/qmllint
-CMakeFiles/QTApp_qmllint_json: /home/apponnect/Programming/Study/Learning/C++/QT/QT/qml/Main.qml
-CMakeFiles/QTApp_qmllint_json: /home/apponnect/Programming/Study/Learning/C++/QT/QT/qml/Settings.qml
-	cd /home/apponnect/Programming/Study/Learning/C++/QT/QT && /usr/lib/qt6/bin/qmllint --bare -I /home/apponnect/Programming/Study/Learning/C++/QT/QT/build -I /usr/lib/x86_64-linux-gnu/qt6/qml --resource /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/.rcc/qmake_VehicleHMI.qrc --resource /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/.rcc/QTApp_raw_qml_0.qrc /home/apponnect/Programming/Study/Learning/C++/QT/QT/qml/Main.qml /home/apponnect/Programming/Study/Learning/C++/QT/QT/qml/Settings.qml --json /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/QTApp_qmllint.json
+CMakeFiles/QTApp_qmllint_json: /home/krian/Github/Learning/Learning/C++/QT/QT/qml/Main.qml
+CMakeFiles/QTApp_qmllint_json: /home/krian/Github/Learning/Learning/C++/QT/QT/qml/Settings.qml
+	cd /home/krian/Github/Learning/Learning/C++/QT/QT && /usr/lib/qt6/bin/qmllint --bare -I /home/krian/Github/Learning/Learning/C++/QT/QT/build -I /usr/lib/x86_64-linux-gnu/qt6/qml --resource /home/krian/Github/Learning/Learning/C++/QT/QT/build/.rcc/qmake_VehicleHMI.qrc --resource /home/krian/Github/Learning/Learning/C++/QT/QT/build/.rcc/QTApp_raw_qml_0.qrc /home/krian/Github/Learning/Learning/C++/QT/QT/qml/Main.qml /home/krian/Github/Learning/Learning/C++/QT/QT/qml/Settings.qml --json /home/krian/Github/Learning/Learning/C++/QT/QT/build/QTApp_qmllint.json
 
 QTApp_qmllint_json: CMakeFiles/QTApp_qmllint_json
 QTApp_qmllint_json: CMakeFiles/QTApp_qmllint_json.dir/build.make
@@ -84,6 +84,6 @@ CMakeFiles/QTApp_qmllint_json.dir/clean:
 .PHONY : CMakeFiles/QTApp_qmllint_json.dir/clean
 
 CMakeFiles/QTApp_qmllint_json.dir/depend:
-	cd /home/apponnect/Programming/Study/Learning/C++/QT/QT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/apponnect/Programming/Study/Learning/C++/QT/QT /home/apponnect/Programming/Study/Learning/C++/QT/QT /home/apponnect/Programming/Study/Learning/C++/QT/QT/build /home/apponnect/Programming/Study/Learning/C++/QT/QT/build /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles/QTApp_qmllint_json.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/krian/Github/Learning/Learning/C++/QT/QT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krian/Github/Learning/Learning/C++/QT/QT /home/krian/Github/Learning/Learning/C++/QT/QT /home/krian/Github/Learning/Learning/C++/QT/QT/build /home/krian/Github/Learning/Learning/C++/QT/QT/build /home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles/QTApp_qmllint_json.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/QTApp_qmllint_json.dir/depend
 

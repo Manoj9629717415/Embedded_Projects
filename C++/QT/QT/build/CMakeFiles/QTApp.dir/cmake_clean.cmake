@@ -32,8 +32,8 @@ file(REMOVE_RECURSE
   "VehicleHMI/QTApp.qmltypes"
   "bin/QTApp"
   "bin/QTApp.pdb"
-  "meta_types/qt6qtapp_metatypes.json"
-  "meta_types/qt6qtapp_metatypes.json.gen"
+  "meta_types/qt6qtapp_debug_metatypes.json"
+  "meta_types/qt6qtapp_debug_metatypes.json.gen"
   "qtapp_qmltyperegistrations.cpp"
 )
 

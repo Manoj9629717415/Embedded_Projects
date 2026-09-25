@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/apponnect/Programming/Study/Learning/C++/QT/QT
+CMAKE_SOURCE_DIR = /home/krian/Github/Learning/Learning/C++/QT/QT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/apponnect/Programming/Study/Learning/C++/QT/QT/build
+CMAKE_BINARY_DIR = /home/krian/Github/Learning/Learning/C++/QT/QT/build
 
 # Utility rule file for QTApp_automoc_json_extraction.
 
@@ -67,8 +67,8 @@ include CMakeFiles/QTApp_automoc_json_extraction.dir/compiler_depend.make
 include CMakeFiles/QTApp_automoc_json_extraction.dir/progress.make
 
 CMakeFiles/QTApp_automoc_json_extraction: /usr/lib/qt6/libexec/cmake_automoc_parser
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running AUTOMOC file extraction for target QTApp"
-	/usr/lib/qt6/libexec/cmake_automoc_parser --cmake-autogen-cache-file /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles/QTApp_autogen.dir/ParseCache.txt --cmake-autogen-info-file /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles/QTApp_autogen.dir/AutogenInfo.json --output-file-path /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/meta_types/QTApp_json_file_list.txt --timestamp-file-path /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/meta_types/QTApp_json_file_list.txt.timestamp --cmake-autogen-include-dir-path /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/QTApp_autogen/include
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running AUTOMOC file extraction for target QTApp"
+	/usr/lib/qt6/libexec/cmake_automoc_parser --cmake-autogen-cache-file /home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles/QTApp_autogen.dir/ParseCache.txt --cmake-autogen-info-file /home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles/QTApp_autogen.dir/AutogenInfo.json --output-file-path /home/krian/Github/Learning/Learning/C++/QT/QT/build/meta_types/QTApp_json_file_list.txt --timestamp-file-path /home/krian/Github/Learning/Learning/C++/QT/QT/build/meta_types/QTApp_json_file_list.txt.timestamp --cmake-autogen-include-dir-path /home/krian/Github/Learning/Learning/C++/QT/QT/build/QTApp_autogen/include
 
 QTApp_automoc_json_extraction: CMakeFiles/QTApp_automoc_json_extraction
 QTApp_automoc_json_extraction: CMakeFiles/QTApp_automoc_json_extraction.dir/build.make
@@ -83,6 +83,6 @@ CMakeFiles/QTApp_automoc_json_extraction.dir/clean:
 .PHONY : CMakeFiles/QTApp_automoc_json_extraction.dir/clean
 
 CMakeFiles/QTApp_automoc_json_extraction.dir/depend:
-	cd /home/apponnect/Programming/Study/Learning/C++/QT/QT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/apponnect/Programming/Study/Learning/C++/QT/QT /home/apponnect/Programming/Study/Learning/C++/QT/QT /home/apponnect/Programming/Study/Learning/C++/QT/QT/build /home/apponnect/Programming/Study/Learning/C++/QT/QT/build /home/apponnect/Programming/Study/Learning/C++/QT/QT/build/CMakeFiles/QTApp_automoc_json_extraction.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/krian/Github/Learning/Learning/C++/QT/QT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krian/Github/Learning/Learning/C++/QT/QT /home/krian/Github/Learning/Learning/C++/QT/QT /home/krian/Github/Learning/Learning/C++/QT/QT/build /home/krian/Github/Learning/Learning/C++/QT/QT/build /home/krian/Github/Learning/Learning/C++/QT/QT/build/CMakeFiles/QTApp_automoc_json_extraction.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/QTApp_automoc_json_extraction.dir/depend
 

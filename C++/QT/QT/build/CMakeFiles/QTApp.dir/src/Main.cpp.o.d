@@ -1,5 +1,5 @@
 CMakeFiles/QTApp.dir/src/Main.cpp.o: \
- /home/apponnect/Programming/Study/Learning/C++/QT/QT/src/Main.cpp \
+ /home/krian/Github/Learning/Learning/C++/QT/QT/src/Main.cpp \
  /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/QGuiApplication \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qguiapplication.h \
@@ -412,8 +412,8 @@ CMakeFiles/QTApp.dir/src/Main.cpp.o: \
  /usr/include/c++/13/bits/atomic_futex.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QObject \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qobject.h \
- /home/apponnect/Programming/Study/Learning/C++/QT/QT/includes/Vehicle.h \
+ /home/krian/Github/Learning/Learning/C++/QT/QT/includes/Vehicle.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QTimer \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qtimer.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qbasictimer.h \
- /home/apponnect/Programming/Study/Learning/C++/QT/QT/includes/Canworker.h
+ /home/krian/Github/Learning/Learning/C++/QT/QT/includes/Canworker.h

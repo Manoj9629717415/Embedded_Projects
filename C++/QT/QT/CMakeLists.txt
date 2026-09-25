@@ -17,6 +17,7 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 #add_subdirectory(src)
 
 find_package(Qt6 REQUIRED COMPONENTS Core Gui Qml Quick)
+find_package(nlohmann_json REQUIRED)
 
 qt_standard_project_setup()
 
@@ -51,4 +52,4 @@ target_include_directories(QTApp PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}/includes
 )
 
-target_link_libraries(QTApp PRIVATE Qt6::Core Qt6::Gui Qt6::Qml Qt6::Quick)
+target_link_libraries(QTApp PRIVATE Qt6::Core Qt6::Gui Qt6::Qml Qt6::Quick  nlohmann_json::nlohmann_json)

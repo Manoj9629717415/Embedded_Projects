@@ -16,6 +16,7 @@ public:
 
     explicit Car(QObject* parent=nullptr):QObject(parent)
     {
+        
     }
 
     void setSpeed(int speed)
