@@ -27,6 +27,8 @@ int main()
     pthread_mutexattr_init(&attr);
     pthread_mutexattr_setpshared(&attr,PTHREAD_PROCESS_SHARED);
     pthread_mutexattr_setrobust(&attr,PTHREAD_MUTEX_ROBUST);
+    pthread_mutexattr_setprotocol(&attr,PTHREAD_PRIO_PROTECT);
+    pthread_mutexattr_setprioceiling(&attr,90);
 
     pthread_mutex_init(&data->mutex,&attr);
 
